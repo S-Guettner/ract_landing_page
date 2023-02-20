@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    text-align: center;
+    background-color: green;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+}
+h1{
+    color: white;
+}
+p{
+    margin-bottom: 2rem;
+}
+
+.headerNumbers{
+    display: flex;
+    justify-content: space-between;
+}
+h3{
+    color: white;
+    font-size: 2rem;
+}
+.NumbersContainer{
+    border-left: 1px solid white;
+    padding-left: 1rem;
+}
