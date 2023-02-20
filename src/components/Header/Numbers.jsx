@@ -1,9 +1,9 @@
 import './Header.css'
 
-const Numbers = () => {
+const Numbers = (props) => {
     return (
         <div className='NumbersContainer'>
-        <h3>127</h3>
+        <h3>{props.number}</h3>
         <p>Lorem ipsum dolor sit amet.</p>
         </div>  
     );
