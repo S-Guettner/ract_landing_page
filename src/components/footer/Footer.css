@@ -12,4 +12,11 @@ p{
 .footerSection{
     display: flex;
     flex-wrap: wrap;
+    /* background-color: gray; */
+}
+.foodName{
+    color: blue;
+}
+.foodPrice{
+    color: aqua;
 }
